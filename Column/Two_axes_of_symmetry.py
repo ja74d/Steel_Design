@@ -2,18 +2,18 @@ import math
 
 #material properties Kg/cm2
 E = 2.04e+06
-Fy = 2400
+Fy = 3600
 nu = 0.3
 G = E/(2*(1+nu))
 
 #section properties-cm^4
-Ix = 25170 #cm^4
-Iy = 8560 #cm^4
+Ix = 2082 #cm^4
+Iy = 2082 #cm^4
 
-L = 600 #cm
+L = 500 #cm
 
-J = 148.8 #cm^4
-Cw = 1.69e+06 #cm^4
+J = 10.43 #cm^4
+Cw = 26810 #cm^4
 
 Kz = 1 #for safty it sets to 1
 
